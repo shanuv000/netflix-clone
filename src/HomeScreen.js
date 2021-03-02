@@ -1,15 +1,17 @@
 import React from 'react';
 import './HomeScreen.css';
 import Nav from "./Nav";
+import Banner from "./Banner";
 
 const HomeScreen = () => {
 
     return (<div className="homeScreen">
-        {/*Navbar*/}
         <Nav/>
-        {/*banner*/}
 
-        {/*Row*/}
+        <Banner/>
+
+        
+
     </div>)
 
 }
