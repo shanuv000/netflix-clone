@@ -27,6 +27,18 @@
     cursor: pointer;
 }
 
+.loginScreen__body {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    /*left:16%;*/
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+}
+
 .loginScreen__body > h1 {
     font-size: 3.125rem;
     margin-bottom: 20px;
@@ -44,16 +56,6 @@
 
 }
 
-.loginScreen__body {
-    position: absolute;
-    top: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    z-index: 1;
-    color: #fff;
-    padding: 20px;
-}
 
 .loginScreen__gradient {
     width: 100%;
@@ -68,7 +70,8 @@
     );
 
 }
-.loginScreen__input{
+
+.loginScreen__input {
     margin: 20px;
 }
 
@@ -80,14 +83,14 @@
     border: none;
     max-width: 600px;
 }
-.loginScreen__getStarted{
+
+.loginScreen__getStarted {
     padding: 16px 20px;
     font-size: 1rem;
-    color:#fff;
+    color: #fff;
     background-color: #e50914;
     border: none;
     font-weight: 600;
     cursor: pointer;
-
-
 }
+
