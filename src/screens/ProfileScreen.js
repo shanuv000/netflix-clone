@@ -18,6 +18,8 @@ const ProfileScreen = () => {
                     <div className="profileScreen__details">
                         <h2>{user.email}</h2>
                         <div className="profileScreen__plans">
+                            <h3>Plans</h3>
+                            <p>Renewal Day</p>
                             <button onClick={() => auth.signOut()} className='profileScreen__signOut'>Sign Out</button>
                         </div>
                     </div>

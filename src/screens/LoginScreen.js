@@ -24,7 +24,7 @@ const LoginScreen = () => {
                     <div className="loginScreen__input">
                         <form>
                             <input type="email"
-                                   placeholder='Email address'/>
+                                   placeholder='Email address' />
                             <button onClick={() => setSignIn(true)}
                                     className='loginScreen__getStarted'>GET STARTED
                             </button>
