@@ -67,3 +67,31 @@
     border-bottom: 1px solid #282c2d;
     padding-bottom: 10px;
 }
+
+/*//////////////////////////////////*/
+.profileScreen__rows {
+    width: 100%;
+    max-width: 800px;
+}
+
+.profileScreen__row {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+.profileScreen__text{
+    padding: 5px;
+}
+.button__subscribe {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 30%;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-left: 30%;
+}

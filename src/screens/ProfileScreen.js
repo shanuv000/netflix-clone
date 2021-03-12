@@ -20,6 +20,29 @@ const ProfileScreen = () => {
                         <div className="profileScreen__plans">
                             <h3>Plans</h3>
                             <p>Renewal Day</p>
+
+                            {/*/////////////////////////////////////////////////////////////////////////////*/}
+                            <div className='profileScreen__rows'>
+                                <div className='profileScreen__row'>
+                                    <div className="profileScreen__text">
+                                        <h2>Netflix Standards</h2><h3>1080p</h3></div>
+                                    <button className='button__subscribe'>Subscribe</button>
+
+                                </div>    <div className='profileScreen__row'>
+                                    <div className="profileScreen__text">
+                                        <h2>Netflix Basic</h2><h3>1080p</h3></div>
+                                    <button className='button__subscribe'>Subscribe</button>
+
+                                </div>    <div className='profileScreen__row'>
+                                    <div className="profileScreen__text">
+                                        <h2>Netflix Premium</h2><h3>1080p</h3></div>
+                                    <button className='button__subscribe'>Subscribe</button>
+
+                                </div>
+
+                            </div>
+
+
                             <button onClick={() => auth.signOut()} className='profileScreen__signOut'>Sign Out</button>
                         </div>
                     </div>
