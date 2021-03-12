@@ -1,4 +1,4 @@
-#Getting Started
+# Getting Started
 ![Netflix Getting Started](./src/images/gettingstarted.png)
 # Sign-In
 ![Netflix Home](./src/images/signin.png)
