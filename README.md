@@ -1,9 +1,25 @@
-# Getting Started
+# [Netflix](https://netflix-441f8.web.app/)
+ This is a Netflix clone where I used API provided by TMDB to fetch all titles, description and images and with React and Material UI, it has very attractive design.
+
 ![Netflix Getting Started](./src/images/gettingstarted.png)
 # Sign-In
 ![Netflix Home](./src/images/signin.png)
 # Home
 ![Netflix Home](./src/images/netflix.png)
+
+
+## Roles and Responsibilities:
+
+
+
+-	Development- I have worked on frontend, creating UI, Authenticated it with Firebase and implemented frontend 
+     logic as well as integrating API and handling response on frontend.
+-	Worked on implementing various charts and visual representation inside the system providing useful information 
+     to the user.
+-	Backend APIs integration
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
